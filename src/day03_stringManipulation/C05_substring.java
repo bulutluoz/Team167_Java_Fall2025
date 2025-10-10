@@ -54,6 +54,5 @@ public class C05_substring {
         //System.out.println(str.charAt(20)); // StringIndexOutOfBounds
         // System.out.println(str.substring(20)); // StringIndexOutOfBounds
 
-
     }
 }
