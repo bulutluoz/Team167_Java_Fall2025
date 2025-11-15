@@ -12,5 +12,16 @@ public class C05_DataTurununuLinkedListSecme {
         // o interface'lerden sonra gelen ilk concrete class olarak
         // 3 interface'deki butun abstract kalmis method'lari concretlestirmek ZORUNDADIR
         // yani o method'lara sahip olmak ve kendisine uyarlamak zorundadir.
+
+
+        System.out.println(isimler.hashCode()); // 1
+
+        isimler.add("ayse");
+
+        System.out.println(isimler.hashCode()); // Ali => 65949 ali=>96701  ALI=> 64925 ayse=> 3009705
+
+        isimler.add("ali");
+
+        System.out.println(isimler.hashCode()); // ayse,ali => 93397525
     }
 }
